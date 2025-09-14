@@ -1,0 +1,20 @@
+data_folder: data
+artifacts_folder: data/artifacts
+data_files:
+  train_file: train_review.feather
+  val_file: val_review.feather
+  test_file: test_review.feather
+  review_text_sentences: train_review_sentences.txt
+  business_file: business.feather
+  friend_mapping: friends_map.json
+  tip_file: tip.feather
+  user_file: user.feather
+
+tokenizer:
+  vocab_size: 30000
+  special_tokens:
+    - <START>
+    - <END>
+    - <PAD>
+    - <UNK>
+  folder: tokenizers/v1
