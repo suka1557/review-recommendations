@@ -1,5 +1,5 @@
 from tokenizers import ByteLevelBPETokenizer
-from typing import List, Optional
+from typing import List
 from pathlib import Path
 
 class ReviewTokenizer:

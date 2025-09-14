@@ -4,7 +4,7 @@ import yaml
 from typing import Dict
 
 from embeddings.learn.text_clean import TextClean
-from embeddings.learn.train_tokenizer import ReviewTokenizer
+from embeddings.learn.tokenizer import ReviewTokenizer
 
 #Define Paths
 PROJECT_ROOT = os.path.join("/home/ar-in-u-301/Documents/codes", "review-recommendations")
