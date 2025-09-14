@@ -24,4 +24,5 @@ pyarrow = "^21.0.0"
 matplotlib = "^3.10.6"
 sentence-transformers = "^5.1.0"
 nltk = "^3.9.1"
+tokenizers = "^0.22.0"
 
